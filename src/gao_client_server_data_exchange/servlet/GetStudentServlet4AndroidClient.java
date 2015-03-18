@@ -24,7 +24,8 @@ public class GetStudentServlet4AndroidClient extends HttpServlet {
 		ArrayList<Student> studentList = new ArrayList<Student>();
 		studentList.add(new Student(100L, "Tom", 20));
 		studentList.add(new Student(101L, "Jack", 21));
-		studentList.add(new Student(102L, "Jim", 23));
+		studentList.add(new Student(102L, "Jim", 23)); 
+		studentList.add(new Student(103L, "Gao", 29)); 
 
 		JSONArray array = JSONArray.fromObject(studentList);
 		System.out.println(array.toString());
